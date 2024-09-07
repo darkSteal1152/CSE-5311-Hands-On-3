@@ -47,9 +47,9 @@ def correct(arr):
             cor = False
 
     if cor:
-        print("Selection Sort returns a sorted array correctly")
+        print("Merge Sort returns a sorted array correctly")
     else:
-        print("Selection sort failed to return a sorted array")
+        print("Merge sort failed to return a sorted array")
 
 
 size = 10
