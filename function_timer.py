@@ -10,8 +10,7 @@ def f(n):
 
     return x
 
-input_values = np.concatenate([np.arange(1, 10), np.arange(10, 100, 10), np.arange(100, 1000, 100),
-                               np.arange(1000, 10000, 1000)])
+input_values = np.concatenate([np.arange(1, 10), np.arange(10, 100, 10), np.arange(100, 1000, 100), np.arange(1000, 10000, 1000)])
 times = []
 
 for n in  input_values:
